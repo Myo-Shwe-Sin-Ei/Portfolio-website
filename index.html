@@ -148,7 +148,7 @@
   .project-card a.link { font-weight: 600; font-size: .9rem; }
 
   /* ---------- Contact ---------- */
-  .contact-grid { display: grid; grid-template-columns: 1fr 1.2fr; gap: 40px; }
+  .contact-grid { display: grid; grid-template-columns: 1fr; gap: 40px; }
   .contact-list { list-style: none; display: flex; flex-direction: column; gap: 16px; }
   .contact-list li { display: flex; gap: 12px; align-items: center; color: var(--text-soft); }
   .contact-list .ci { width: 40px; height: 40px; border-radius: 10px; background: color-mix(in srgb, var(--teal) 14%, transparent); color: var(--teal); display: grid; place-items: center; flex-shrink: 0; font-size: 1.1rem; }
@@ -402,22 +402,6 @@
         <li><span class="ci">in</span><a href="[UPDATE link]">[UPDATE] linkedin.com/in/janedoe</a></li>
         <li><span class="ci">gh</span><a href="[UPDATE link]">[UPDATE] github.com/janedoe</a></li>
       </ul>
-      <!-- UPDATE the email in the form action below so messages reach you -->
-      <form class="contact-form reveal" action="mailto:[UPDATE email]" method="post" enctype="text/plain">
-        <div class="field">
-          <label for="name">Name</label>
-          <input type="text" id="name" name="name" required />
-        </div>
-        <div class="field">
-          <label for="email">Email</label>
-          <input type="email" id="email" name="email" required />
-        </div>
-        <div class="field">
-          <label for="message">Message</label>
-          <textarea id="message" name="message" rows="5" required></textarea>
-        </div>
-        <button type="submit" class="btn btn-primary" style="width:100%">Send Message</button>
-      </form>
     </div>
   </div>
 </section>
